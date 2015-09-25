@@ -20,6 +20,8 @@
 6. Create the database (specified in database yml) and seed it with data
     rake db:setup (can also be done with 'bundle exec rake db:schema:load')
 
+You can see the list of development users at db/seed/development/accounts.yml.  The password is the same as the username.
+
 === Rails Project Tasks
 
 * Start the server (GrinnellPlans will be at http://localhost:3000):
